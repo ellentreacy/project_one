@@ -54,7 +54,7 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-#nav-bar a:active{
+ a:active{
     border-bottom: 1px solid #3a3a3a;
     /*why doesnt this work*/
 }
