@@ -60,7 +60,7 @@ h1, h2 {
 }
 
 
-/* hero image */
+/* hero image and cover text*/
 
 #hero-image {
     height: 600px;
@@ -75,13 +75,17 @@ h1, h2 {
     /* position: relative; */
 }
 
-/* #hero-image {
-    height: 600px;
-    width: 100%;
-    background: url('../images/hero-image.webp') no-repeat center center;
 
-    /* animates zoom effect on loading page */
-    /* animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-} */
+#cover-text{
+    /* font-size: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px; */
+    width:760px;
+    height:30px;
+    padding: 10px;
+    background-color: rgba(240, 255, 255, 0.4); 
+    top: 490px;
+    left: 100px; 
+    position: absolute;
+}
