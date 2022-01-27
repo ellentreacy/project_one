@@ -14,7 +14,7 @@ body {
     background-color: #59604a;
 }
 
-
+/* ------------------------------------------------------- */
 /* headings and logo */
 h1, h2 {
     font-family: 'Roboto Condensed', sans-serif;
@@ -31,6 +31,8 @@ h1, h2 {
     line-height:75px;
 }
 
+
+/* ------------------------------------------------------- */
 /* navigation links */
 
 #nav-bar {
@@ -59,7 +61,7 @@ h1, h2 {
     /*why doesnt this work*/
 }
 
-
+/* ------------------------------------------------------- */
 /* hero image and cover text*/
 
 #hero-image {
@@ -75,7 +77,6 @@ h1, h2 {
     /* position: relative; */
 }
 
-
 #cover-text{
     /* font-size: 100%;
     font-family: 'Roboto Condensed', sans-serif;
@@ -84,8 +85,49 @@ h1, h2 {
     width:760px;
     height:30px;
     padding: 10px;
-    background-color: rgba(240, 255, 255, 0.4); 
-    top: 490px;
+    background-color: rgba(240, 255, 255, 0.5); 
+    top: 480px;
     left: 100px; 
     position: absolute;
+}
+
+#cover-text h2 {
+    color:#3a3a3a
+}
+
+
+
+/* ------------------------------------------------------- */
+/* footer and line break*/
+
+hr {width: auto; 
+    height: 1px; 
+    background-color:#666; 
+    padding: 1px; 
+    margin: 32px;}
+
+footer {
+    height: 50 px;
+    margin-bottom: 0%;
+    width :100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 100%;
+    color: #3a3a3a;
+}
+
+#address {
+    color: #3a3a3a;
+    text-align: center;
 }
