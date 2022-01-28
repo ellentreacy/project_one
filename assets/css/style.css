@@ -274,6 +274,11 @@ footer {
     color: #3a3a3a;
 }
  
+
+/*community groups*/
+.community {
+    min-height: 250px;
+}
 /* noticing nature */
 
 #nature-image {
@@ -285,8 +290,8 @@ footer {
 }
 
 #nature-image-container{
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     padding: 10px;
     border-style:  solid;
     border-color: #ccc;
@@ -294,4 +299,118 @@ footer {
     border-radius: 50%;
     float: right;
     margin-right: 15%;
+}
+
+#nature-text-box {
+    margin-left: 15%;
+    padding: 10px;
+}
+
+#nature-text-box h3 {
+    color: #3a3a3a;   
+}
+
+
+/* gardening */
+
+#gardening-image {
+    background-image: url(../images/seedling.jpeg);
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#gardening-image-container{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border-style:  solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 15%;
+}
+
+#gardening-text-box {
+    margin-right: 15%;
+    padding: 10px;
+    float: right;
+    width: 50%;
+    height: 200px;
+}
+
+#gardening-text-box h3 {
+    color: #3a3a3a;   
+}
+
+/*ecowarriers*/
+#eco-image {
+    background-image: url(../images/eco.jpeg);
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#eco-image-container{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border-style:  solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    float: right;
+    margin-right: 15%;
+}
+
+#eco-text-box {
+    margin-left: 15%;
+    padding: 10px;
+    width: 50%;
+    height: 200px;
+}
+
+#eco-text-box h3 {
+    color: #3a3a3a;   
+}
+
+#eco {
+    height: 270px;
+}
+
+
+/*coffee*/
+#coffee-image {
+    background-image: url(../images/coffee.jpeg);
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#coffee-image-container{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border-style:  solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 15%;
+}
+
+#coffee-text-box {
+    margin-right: 15%;
+    padding: 10px;
+    float: right;
+    width: 50%;
+    height: 200px;
+}
+
+#coffee-text-box h3 {
+    color: #3a3a3a;   
 }
