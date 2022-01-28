@@ -99,27 +99,30 @@ h1, h2 {
 /* ------------------------------------------------------- */
 /* about section */
 #about {
-    float: left;
-    height: 500px;
-    width:50%;
-    margin-top: 32px;
+    margin: 32px;
 }
 
 #about p {
     text-align: center;
     padding-top: 32px;
-    padding-left: 32px;
+    /* padding-left: 32px;
     padding-right: 32px;
+    padding */
     text-justify: distribute;
     font-size: 118%;
 }
 
 #map {
-    float: right;
-    height: 500px;
-    width: 50%;
-    margin-top: 32px;
+    margin: 32px;
+    width: auto;
+    /* padding-top: 1rem;
+    padding-bottom: 18rem; */
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-content: center;
 }
+
 
 /* ------------------------------------------------------- */
 /* footer and line break*/
