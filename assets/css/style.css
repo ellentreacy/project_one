@@ -14,6 +14,8 @@ body {
     background-color: #59604a;
 }
 
+
+
 /* ------------------------------------------------------- */
 /* headings and logo */
 h1, h2 {
@@ -29,6 +31,12 @@ h1, h2 {
     font-size: 280%;
     margin-left:20px;
     line-height:75px;
+    top: 0px;
+    
+}
+
+header {
+    height: 80px;
 }
 
 
@@ -39,6 +47,7 @@ h1, h2 {
     font-size: 100%;
     letter-spacing: 3px;
     line-height:75px;
+    top: 0px;
 }
 
 #nav-bar li {
@@ -179,3 +188,75 @@ footer {
 #careers a {
     color: #3a3a3a;
 }
+
+/* --------------------------- */
+/*events page*/
+
+/* latest event section */
+
+#yoga-image {
+    background-image: url(../images/yoga.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    overflow: hidden;
+    border: 2px solid white;
+    box-sizing: border-box;
+    height: 150px;
+    width: 30%;
+    float: left;
+}
+
+.transparent-box1 {
+    margin: 10px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.75;
+    height: 80%;
+}
+
+.transparent-box1 h3, h4 {
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    line-break: loose;
+    padding: 5px;
+  }
+  .transparent-box1 h3 {
+      text-transform: uppercase;
+  }
+
+#trail-image {
+    background-image: url(../images/children.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    overflow: hidden;
+    border: 2px solid white;
+    box-sizing: border-box;
+    height: 150px;
+    width: 30%;
+    float: left;  
+}
+
+#hiit-image {
+    background-image: url(../images/children.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    overflow: hidden;
+    border: 2px solid white;
+    box-sizing: border-box;
+    height: 150px;
+    width: 30%;
+    float: left;
+}
+
+#container {
+    display: flex;
+  }
+ 
+  #container > div {
+    flex: 1; 
+  }
+  
