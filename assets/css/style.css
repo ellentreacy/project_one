@@ -74,14 +74,9 @@ h1, h2 {
     width: 100%;
     overflow: hidden;
 
-    /* position: relative; */
 }
 
 #cover-text{
-    /* font-size: 100%;
-    font-family: 'Roboto Condensed', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px; */
     width:760px;
     height:30px;
     padding: 10px;
@@ -105,9 +100,6 @@ h1, h2 {
 #about p {
     text-align: center;
     padding-top: 32px;
-    /* padding-left: 32px;
-    padding-right: 32px;
-    padding */
     text-justify: distribute;
     font-size: 118%;
 }
@@ -115,14 +107,34 @@ h1, h2 {
 #map {
     margin: 32px;
     width: auto;
-    /* padding-top: 1rem;
-    padding-bottom: 18rem; */
     position: relative;
     display:flex;
     justify-content: center;
     align-content: center;
 }
 
+
+/* ------------------------------------------------------- */
+/* Contact Section */
+
+.contact {
+    text-align: center;
+    padding: 10px;
+}
+
+.contact h2 {
+    padding: 5px;
+    letter-spacing: 3px;
+}
+
+.contact h3 {
+    padding: 5px;
+}
+
+.contact-link {
+    color: azure;
+    font-size: 110%;
+}
 
 /* ------------------------------------------------------- */
 /* footer and line break*/
@@ -141,9 +153,15 @@ footer {
     padding-top: 10px;
 }
 
-.social-networks {
+#footer-column {
     text-align: center;
+    font-size: 100%;
+    color: #3a3a3a;
 }
+
+.social-networks {
+    padding-top: 5px;
+} 
 
 .social-networks > li {
     display: inline;
@@ -155,6 +173,9 @@ footer {
 }
 
 #address {
+    padding-top: 5px;
+} 
+
+#careers a {
     color: #3a3a3a;
-    text-align: center;
 }
