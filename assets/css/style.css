@@ -200,7 +200,7 @@ footer {
     background-size: cover;
     background-position:center;
     overflow: hidden;
-    border: 2px solid white;
+    border: 2px solid #ccc;
     box-sizing: border-box;
     height: 150px;
     width: 30%;
@@ -209,7 +209,7 @@ footer {
 
 .transparent-box1 {
     margin: 10px;
-    background-color: #ffffff;
+    background-color: #ccc;
     border: 1px solid black;
     opacity: 0.75;
     height: 80%;
@@ -232,7 +232,7 @@ footer {
     background-size: cover;
     background-position:center;
     overflow: hidden;
-    border: 2px solid white;
+    border: 2px solid #ccc;
     box-sizing: border-box;
     height: 150px;
     width: 30%;
@@ -245,7 +245,7 @@ footer {
     background-size: cover;
     background-position:center;
     overflow: hidden;
-    border: 2px solid white;
+    border: 2px solid #ccc;
     box-sizing: border-box;
     height: 150px;
     width: 30%;
@@ -254,6 +254,8 @@ footer {
 
 #container {
     display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
   }
  
   #container > div {
@@ -272,3 +274,24 @@ footer {
     color: #3a3a3a;
 }
  
+/* noticing nature */
+
+#nature-image {
+    background-image: url(../images/squirrel.jpeg);
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#nature-image-container{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border-style:  solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    float: right;
+    margin-right: 15%;
+}
