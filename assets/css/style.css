@@ -259,4 +259,16 @@ footer {
   #container > div {
     flex: 1; 
   }
-  
+
+
+#blurb-container {
+    text-align: center;
+    width: 100%;
+    font-size: 110%;
+}
+
+#newsletter-link {
+    text-decoration: none;
+    color: #3a3a3a;
+}
+ 
