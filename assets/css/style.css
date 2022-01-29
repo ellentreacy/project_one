@@ -109,7 +109,6 @@ header {
 #about p {
     text-align: center;
     padding-top: 32px;
-    text-justify: distribute;
     font-size: 118%;
 }
 
@@ -155,7 +154,7 @@ hr {width: auto;
     margin: 32px;}
 
 footer {
-    height: 50 px;
+    height: auto;
     margin-bottom: 0%;
     width :100%;
     padding-bottom: 10px;
