@@ -253,6 +253,7 @@ footer {
 
 #container {
     display: flex;
+    flex-direction: row;
     margin-left: 15%;
     margin-right: 15%;
   }
@@ -449,4 +450,84 @@ footer {
 
 #form h2 {
     padding: 2px;
+}
+
+
+/*media queries */
+
+@media screen and (max-width: 1260px) {
+    #coffee-text-box {
+        margin-right: 5%; }
+
+    #coffee-image-container{
+            margin-left: 5%; }
+   
+    #eco-text-box {
+        margin-left: 5%;
+    }
+
+    #eco-image-container{
+        margin-right: 5%; }
+
+   #eco {
+       height: 500px;
+   }
+
+   #gardens {
+       height: 400px;
+   }
+
+   #gardening-text-box {
+    margin-right: 5%; }
+
+    #gardening-image-container {
+        margin-left: 5%;
+    }
+
+    #nature-image-container{
+        margin-right: 5%;}
+
+    #nature-text-box {
+        margin-left: 5%;
+    }    
+}
+
+/*for screen below 1150px */
+
+@media screen and (max-width: 1150px) {
+    #container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+/* for screen below 880px*/
+
+
+
+@media screen and (max-width: 880px) {
+
+    #cover-text {
+        width:70%;
+    }
+    #cover-text h2 {
+        font-size: 100%;
+        font-weight: 800;
+    }
+    #container {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #yoga-image{
+        width: 60%;
+    }
+
+    #hiit-image{
+        width: 60%;
+    }
+
+    #trail-image{
+        width: 60%;
+    }
 }
