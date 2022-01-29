@@ -266,14 +266,15 @@ footer {
 #blurb-container {
     text-align: center;
     width: 100%;
-    font-size: 110%;
+    font-size: 100%;
 }
 
-#newsletter-link {
+.blurb-link {
     text-decoration: none;
     color: #3a3a3a;
 }
- 
+
+
 
 /*community groups*/
 .community {
@@ -413,4 +414,34 @@ footer {
 
 #coffee-text-box h3 {
     color: #3a3a3a;   
+}
+
+/*Newsletter*/
+
+
+#newsletter-description {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 36px;
+}
+
+#newsletter-description h4 {
+    color: azure;
+}
+
+.form {
+
+    background-color: #ccc;
+    opacity: 0.7;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 25%;
+    margin-right:25%;
+    display: flex;
+    text-align: center;
+    padding: 10px;
+}
+
+.form h2 {
+    padding: 2px;
 }
